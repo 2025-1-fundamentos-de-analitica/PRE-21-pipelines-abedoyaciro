@@ -16,7 +16,7 @@
 	},
 	// Comandos a ejecutar después de que el contenedor es creado.
 	// Aquí es donde instalas las dependencias de tu proyecto Y las herramientas de linting/formato.
-	"postCreateCommand": "pip install --upgrade pip && pip install black pylint && pip install -r requirements.txt && pip install -e . && echo '.vscode/' >> .gitignore",
+	"postCreateCommand": "pip install --upgrade pip && pip install black pylint ipkernel && pip install -r requirements.txt && pip install -e . && echo '.vscode/' >> .gitignore",
 	"customizations": {
 		"vscode": {
 			"extensions": [
